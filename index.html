@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Magic Storage Guard</title>
+<style>body{max-width:48rem;margin:4rem auto;padding:0 1.4rem;font:18px/1.6 system-ui;color:#17212c;background:#fafbfc}a{color:#1249a1}h1,h2{line-height:1.2}section{margin:3rem 0}nav a{margin-right:1.4rem}</style>
+<main><h1>Magic Storage Guard</h1>
+<p>A personal utility that checks storage on its owner's Mac, reports problems, and copies specifically approved archives to the owner's Google Drive.</p>
+<nav><a href="#privacy">Privacy policy</a><a href="#use">Personal use</a></nav>
+<section id="privacy"><h2>Privacy policy</h2><p>Effective October 18, 2026.</p>
+<p>This utility is for its owner's personal use. It is not a hosted file storage service or a public application accepting registrations.</p>
+<p>With the owner's permission, the utility uses Google's Drive file permission to create a private archive folder, upload approved archive files, and read those files to verify that they can be recovered. This permission does not grant general access to all files in the owner's Google Drive.</p>
+<p>The utility reads the connected Google account identity and storage quota to check that uploads go to the intended account. Local records include archive names, original locations, sizes, checksums, cloud file links and transfer status. These records stay on the owner's Mac. Approved archive contents and archive metadata are sent to Google Drive.</p>
+<p>Google credentials are stored encrypted on the Mac using a key protected by the operating system's Keychain. Credentials are not included in archive catalogs or notifications.</p>
+<p>The transfer worker does not sell data, use advertising or analytics, share archives publicly, or send archive contents to an AI model. If the owner enables Telegram alerts, brief storage or transfer status messages go to the owner's configured private chat. Those messages do not include archive contents, file names or Google credentials.</p>
+<p>Cloud copies remain in the owner's Google Drive until the owner removes them. The owner controls their sharing and retention through Google Drive. The owner can revoke this utility's access in the Google account's third party connections settings, stop the local worker, and remove its local records. Revoking access stops future transfers and does not remove existing archive copies.</p>
+<p>Magic Storage Guard's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+<p>Questions or corrections can be reported through the <a href="https://github.com/matrixdemodisk-dev/magic-storage-guard-docs/issues">documentation issue tracker</a>. Do not post private files, credentials or account details there.</p></section>
+<section id="use"><h2>Personal use</h2><p>This utility is maintained for its owner's own computer. Copies and checks reduce recovery risk, but cannot guarantee that other applications will stop using disk space. Upload progress is separate from completed recovery verification. Important files must be preserved, and an incomplete transfer must never be treated as a verified backup.</p></section></main></html>
