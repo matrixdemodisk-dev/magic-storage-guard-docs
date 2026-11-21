@@ -1,0 +1,10 @@
+# Keeps the commit-pinned GitHub Actions in site-checks.yml up to date.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ['*']

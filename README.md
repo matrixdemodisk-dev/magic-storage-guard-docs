@@ -15,6 +15,7 @@ Published with GitHub Pages from the root of the `main` branch:
 | `tools/check-site.mjs` | Invariant checks. No dependencies. |
 | `.htmlvalidate.json` | HTML validator configuration. |
 | `.github/workflows/site-checks.yml` | Runs both checks on every pull request and on `main`. |
+| `.github/dependabot.yml` | Monthly pull requests that update the pinned Actions versions. |
 
 ## Rules for changes
 
